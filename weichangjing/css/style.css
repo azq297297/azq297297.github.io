@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -41,14 +41,38 @@ body {
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
 }
+/*-音乐样式-*/
+#mp3{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    z-index: 100;
+    width: 30px;
+    height: 30px;
+    background: rgba(0,0,0,.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border:3px rgba(238, 238, 238, 0.38) solid;
+    animation: mp3but 1s  infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes mp3but {
+    0%{transform:  rotateZ(0deg)}
+    100%{transform:  rotateZ(360deg)}
+
+}
+#mp3 img{
+    width: 10px;
+}
+
+/*-音乐样式-*/
 
 
 /* .s1*/
 
-.s1,.s2 {
-    background: url("../img/bj.png");
-    height: 100%;
-}
+
 
 .s1 .header img{
     position: absolute;
@@ -65,11 +89,15 @@ body {
     top: 90px;
     right: 40px;
 }
-
 .s1 .header img:nth-of-type(3){
     width: 55px;
     left: 35px;
     bottom: 180px;
+}
+.header .swing{
+    animation-iteration-count:infinite;
+    transform-origin:center;
+
 }
 .s1 .header img:nth-of-type(4){
     width: 50px;
@@ -82,124 +110,110 @@ body {
     width: 60%;
     margin-left: -30%;
 }
-/*-首页文字部分-*/
-.s1 .main {
-    position: absolute;
-    top: 30%;
 
+.s1 .main{
+    position: absolute;
+    top: 32%;
 }
 .s1 .main img:nth-of-type(1){
-
     width: 40%;
-
 }
 .s1 .main img:nth-of-type(2){
-    width: 80%;
+    width: 68%;
     margin-bottom: 20px;
-
+    animation: pulse infinite;
 }
-.s1 .img9{
-
-    font-size: 18px;
-    background:url("../img/9.png") ;
+.s1 .main .img9{
+    background-image: url(../img/9.png);
     background-size:contain;
+    width: 210px;
+    height: 24.5px;
     margin: auto;
-    width:205px ;
 }
-.s1 .footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: #00eaf0;
-    padding-bottom: 150px;
 
+.s1 .footer{
+    color: #08f5cb;
+    width: 100%;
+    padding-top: 80px;
 }
 .s1 .footer h2{
-    font-size: 22px;
+    font-size: 20px;
+    padding-top: 420px;
     margin-bottom: 10px;
 }
 .s1 .footer p:nth-of-type(1){
-
-    font-size: 18px;
+   font-size:16px;
+}
+.s1 .footer img{
+    height: 70px;
 }
 .s1 .footer img:nth-of-type(1){
     position: absolute;
-    height: 79px;
-    left: 0;
     bottom: 0;
+    left: -77px;
 }
 .s1 .footer img:nth-of-type(2){
     position: absolute;
-    left: -90px;
-    bottom: 0;
-    height: 79px;
+    bottom: -10px;
+    left: -100px;
 }
-/*-s2样式-*/
-.s2 h2{
-    font-size: 28px;
-    color: #00d1ae;
-    padding-left: 10px;
-    padding-top: 70px;
-}
-.s2 h2 small{
-    font-size: 16px;
-    display: block;
-    padding-top: 10px;
-}
-.s2 h2::before{
-    content: '';
- background: url("../img/14.png");
-    background-size: 100%;
-    width: 83px;
-    height:20px;
-    display: inline-block;
-    position: absolute;
-    top: 80px;
-    left: 50px;
 
+/*s2样式*/
 
+.s2 .main{
+   position: relative;
 }
-.s2 h2::after{
-    position: absolute;
-    right: 50px;
-    top: 80px;
-    content: "";
-    background: url("../img/13.png");
-    background-size: 100%;
-    width: 83px;
-    height:20px;
-    display: inline-block;
-}
-.s2 img{
+.s2 .main img{
     width: 80%;
-}
-.s2 .s2-bom{
-    position: relative;
-
+    text-align: center;
+    
 }
 .s2 .text{
     position: absolute;
-    left: 0;
-    top: 0;
-    color: #10ebc3;
-    width: 80%;
-    margin: auto;
-    right: 0;
+    width: 70%;
+    top: 25px;
+    left: 60px;
+}
+.s2 .text p{
     text-align: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+   
 }
-.s2 .s2-but{
+.s2 .main span{
+    width: 130px;
     position: absolute;
-    width: 120px;
-    top: 400px;
-    left: 50%;
-    margin-left: -60px;
-    color: #fff;
-    background-image:-webkit-linear-gradient(to left,#00e4f4, #00fd94);
-    background-image:linear-gradient(to left,#00e4f4, #00fd94);
-    border-radius: 15px;
+    bottom: -9px;
+    left: 135px;
+    background-color: aquamarine;
+    color: #08001d;
+    border-radius: 20px;
+    padding: 8px 0;
+    font-size: 16px;
+    background: linear-gradient(to right, #00e7f9, #00ff96);
+}
+/*-s3样式-*/
+.s3 .zhongcheng{
+    position: absolute;
+}
+.s3 .main p{
+    position: relative;
+    font-size: 30px;
+}
+.s3 .main p img{
+    width: ;
+}
+.s3 .main p:nth-of-type(1) span{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+   padding-top: 10%;
+
+    margin:auto;
 
 
 }
+
+
+/*-s3样式-*/

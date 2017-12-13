@@ -1,0 +1,63 @@
+.s1,.s2,.s3{
+    background: url("../img/bj.png");
+    height: 100%;
+}
+.s2,.s3{
+    color: #00f6c9;
+}
+.s2 h2,.s3 h2{
+
+    font-size: 25px;
+    font-family: 宋体;
+    padding-top: 30px;
+}
+.s2 h2::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/14.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    left: 55px;
+}
+.s2 h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/13.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+.s2 small,.s3 small{
+    font-size: 16px;
+    font-family: Gautami;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.s3 h2::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/14.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    left: 55px;
+}
+.s3 h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/13.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
