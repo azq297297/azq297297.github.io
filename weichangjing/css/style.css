@@ -246,10 +246,10 @@ body {
 }
 .s3 .main .text p:nth-of-type(7){
     display: block;
-    left: 31%;
+    left: 28%;
     width: 40%;
     top: 35%;
-    font-size: 40px;
+    font-size: 30px;
 }
 .s3 .text2{
     position: absolute;
@@ -540,3 +540,138 @@ body {
     top: 53%;
 }
 /*-s6样式-*/
+/*-s7样式-*/
+
+.s7 .s7-mian img:nth-of-type(1){
+    margin-top: 50px;
+    width:90%;
+    background-size: cover;
+}
+
+.s7 .s7-mian .form1{
+    position: absolute;
+    left: 35px;
+    top: 180px;
+}
+.s22{
+
+}
+.s7 .s7-mian .form1 input{
+    padding-left: 5px;
+    width: 220px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.s7 .s7-mian .form1 .butt{
+    display: block;
+    background: #00f2ca;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+
+}
+.textp{
+    font-size: 15px;
+}
+@media all and (max-width: 321px) {
+    .s2 h2, .s3 h2, .s4 h2, .s5 h2, .s6 h2, .s7 h2{
+        font-size: 20px !important;
+
+    }
+     h2::after, h2::before{
+        width: 61px !important;
+        height: 14px !important;
+
+    }
+
+    .s2 .text p{
+        font-size: 13px!important;
+    }
+    .s2 .main span{
+        left: 95px!important;
+    }
+    .s3 .text p{
+        font-size: 20px!important;
+    }
+    .s3 .main .text p:nth-of-type(7){
+        font-size: 25px!important;
+        left: 28% !important;
+    }
+    .s3 .text2 p{
+        font-size: 14px !important;
+    }
+
+    .s3 .text2::before {
+
+        width: 3px;
+        height: 34px;
+
+    }
+    .s3 .pic img:nth-of-type(7){
+        left: 30%;
+    }
+    .s4 .text {
+        margin-left: -20px !important;
+    }
+    .s5 .conter{
+        padding-top:30px;!important;
+    }
+    .cle{
+        top: 92px !important;
+    }
+    .cle2{
+        top: 172px !important;
+    }
+    .s4 .text span{
+        font-size: 14px !important;
+    }
+    .s4 ul:nth-of-type(1){
+        top: 33%;
+    }
+    .footertext{
+        top:290px;
+    }
+    .s4 ul li:nth-of-type(2) span{
+        right: -38px;
+    }
+    .conter-main2 {
+        top: 14%;
+    }
+    .s5 .conter ul li:nth-of-type(3){
+        font-size: 13px;
+        top: 55%;
+    }
+    .s5 .conter ul li:nth-of-type(4){
+        top:65%;
+        font-size: 16px;
+    }
+    .text3-main span{
+        font-size: 13px;
+    }
+    .s22{
+        height: 400px;
+    }
+}
+@media all and (min-width: 400px){
+    .s5 .conter ul li:nth-of-type(3){
+        top: 70%;
+    }
+    .s5 .conter ul li:nth-of-type(4){
+        top: 84%;
+    }
+    .s7 .s7-mian .form1 input{
+        width: 310px;
+        margin-left:15px;
+        margin-bottom: 30px;
+    }
+    .s7 .s7-mian .form1{
+        padding-top: 40px;
+    }
+
+}
+@media screen and (min-width:374px) and (max-width:414px){
+    .s7 .s7-mian .form1 input{
+        width: 270px !important;
+    }
+}
+/*-s7样式-*/
