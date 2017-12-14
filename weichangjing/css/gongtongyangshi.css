@@ -1,11 +1,11 @@
-.s1,.s2,.s3{
+.s1,.s2,.s3,.s4,.s5,.s6{
     background: url("../img/bj.png");
     height: 100%;
 }
-.s2,.s3{
+.s2,.s3,.s4,.s5,.s6{
     color: #00f6c9;
 }
-.s2 h2,.s3 h2{
+.s2 h2,.s3 h2,.s4 h2,.s5 h2,.s6 h2{
 
     font-size: 25px;
     font-family: 宋体;
@@ -33,7 +33,7 @@
     top: 35px;
     right: 55px;
 }
-.s2 small,.s3 small{
+.s2 small,.s3 small,.s4 small{
     font-size: 16px;
     font-family: Gautami;
     display: inline-block;
@@ -60,4 +60,119 @@
     position: absolute;
     top: 35px;
     right: 55px;
+}
+.s4 h2::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/14.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    left: 55px;
+}
+.s4 h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/13.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+.s5 h2::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/14.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    left: 55px;
+}
+.s5 h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/13.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+.s6 h2::before{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/14.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    left: 55px;
+}
+.s6 h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/13.png);
+    background-size: 100%;
+    width: 83px;
+    height: 20px;
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+.swiper-button-next{
+    width: 17px;
+    height: 34px;
+    background-size: cover;
+}
+.footer img{
+    height: 70px;
+}
+.footer img:nth-of-type(1){
+    position: absolute;
+    bottom: 0;
+    left: -77px;
+    animation: footerimg1 2.5s alternate infinite;
+}
+.footer img:nth-of-type(2){
+    position: absolute;
+    bottom: -10px;
+    left: -80px;
+    animation: footerimg2 2s alternate infinite;
+}
+
+@keyframes footerimg2 {
+    0%{
+        left: -80px;
+    }
+    100%{
+        left: 0;
+    }
+
+}
+.swiper-button-next{
+    bottom: 5%;
+    animation: buttons 1.5s  alternate infinite;
+    opacity: 1;
+}
+@keyframes buttons{
+    0%{
+        bottom: 5%;
+        opacity: 1;
+    }
+    100%{
+        bottom: 7%;
+        opacity: 0;
+    }
+}
+.slideOutLeft{
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
 }
