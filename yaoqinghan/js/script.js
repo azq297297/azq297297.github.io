@@ -18,3 +18,14 @@ var swiper = new Swiper('.swiper-container', {
         }
     }
 });
+var mp3 = document.querySelector("#mp3s");
+var mp3but = document.querySelector("#mp3");
+mp3but.addEventListener('click',function(){
+    if(mp3.paused){
+        mp3.play();
+        mp3but.style.animationPlayState= "running";
+    }else{
+        mp3.pause();
+        mp3but.style.animationPlayState= "paused";
+    }
+});
