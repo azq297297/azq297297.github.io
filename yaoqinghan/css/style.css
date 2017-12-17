@@ -74,7 +74,7 @@ body {
     text-align: center;
     line-height: 30px;
     border:3px rgba(238, 238, 238, 0.38) solid;
-    animation: mp3but 1s  infinite;
+    animation: mp3but 2s  infinite;
     animation-timing-function: linear;
 
 }
@@ -201,7 +201,7 @@ body {
     top: 12%;
     width: 270px;
     height: 430px;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .s2 .s2Text .s2Text-main{
     position: absolute;
@@ -209,5 +209,100 @@ body {
     top: 12%;
     width: 240px;
 }
+.s2 .s2Text .s2Text-main h2{
+    font-family: 华文行楷;
+    color: rgb(26, 189, 155);
+    margin-top: 20px;
+
+}
+.s2 .s2Text .s2Text-main h3{
+    margin-left: 10px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+.s2 .s2Text .s2Text-main p{
+padding-left: 10px;
+    color: #fff;
+    text-align: left;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    font-weight: 600;
+}
+.s2 .s2Text .s2Text-main p:nth-of-type(1){
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.s2 .s2Text .s2Text-main p:nth-of-type(2){
+    margin-top: 5px;
+    margin-left: 30px;
+
+}
+.s2 .s2Text .s2Text-main p:nth-of-type(3){
+    margin-top: 8px;
+    line-height: 35px;
+}
 
 /*- 第二屏样式完成-*/
+/*- 第三屏样式开始-*/
+.s3 img:nth-of-type(1){
+    background-size: cover;
+    position: absolute;
+    left: -20%;
+}
+.s3 .s3Text {
+    position: absolute;
+    z-index: 700;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.s3 .s3Text h2{
+    font-family: 华文行楷;
+    color: rgb(26, 189, 155);
+
+}
+.s3 .s3Text img:nth-of-type(1){
+    position: absolute;
+    left: 28px;
+    top: 86px;
+    z-index: 20;
+    border-radius: 50%;
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    padding: 3px;
+    background: #fff;
+    border: 1px #47a7c7 solid;
+}
+.s3 .s3Text img:nth-of-type(2){
+    position: absolute;
+    left: 110px;
+    top: 98px;
+    border-radius: 50%;
+    background-size: cover;
+    width: 190px;
+    height: 190px;
+    padding: 3px;
+    background: #fff;
+    border: 1px #47a7c7 solid;
+}
+.s3 .s3Text .school p:nth-of-type(1){
+    position: absolute;
+    left: 124px;
+    top: 123px;
+    z-index: 21;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 22px;
+    font-family: 微软雅黑;
+}
+
+/*- 第三屏样式完成-*/
