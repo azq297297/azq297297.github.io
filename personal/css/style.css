@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*-背景样式开始-*/
+.bodyDiv{
+    padding-top: 100px
+}
+.big img{
+    width: 100%
+}
+/*-背景样式完成-*/
