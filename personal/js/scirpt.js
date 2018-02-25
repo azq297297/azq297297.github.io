@@ -8,3 +8,4 @@ console.log(s);
      $(".navbar-default").css('background',"none");
 }
 });
+

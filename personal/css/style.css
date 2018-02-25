@@ -194,17 +194,9 @@ margin-bottom: 30px;
 }
 
 /*-about样式完成-*/
-.works{
-    padding-top: 30px;
+.puma{
+	margin-top: 20px;
 }
-.works h2{
-    text-align: right;
-}
-.works .imgwei img{
-    width: 200px;
-    margin-left: 20px;
-    border: 1px solid #eee;
-}
-.imgwei{
-   padding-left: 300px
+.puma  img{
+	width: 324px;
 }
